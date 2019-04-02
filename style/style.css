@@ -65,6 +65,7 @@
   height: 110px;
   margin-bottom: 10px;
   margin-left: 30px;
+  border: 1px solid red;
 }
 
 .kick2 {
@@ -197,6 +198,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
+  border: 1px solid blue;
 }
 
 .opponent {
