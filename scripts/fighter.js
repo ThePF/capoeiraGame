@@ -15,18 +15,6 @@ let state = {
   acrobatics3: false
 };
 
-//Create classes for fighter//
-
-// function renderEverything() {
-//   // console.log('Hello2');
-//   renderKick1();
-//   renderKick2();
-//   renderKick3();
-//   renderKick4();
-//   renderKick5();
-//   renderKick6();
-// }
-
 document.addEventListener('keydown', evt => {
   Object.keys(state).forEach(v => (state[v] = false));
   switch (evt.code) {
@@ -158,45 +146,3 @@ function renderKick() {
     fighter.style.marginRight = '0px';
   }
 }
-
-// function renderKick2() {
-//   if (state.kick2 === true) {
-//     fighter.style.backgroundImage = "url('/picsMovements/Kicks/K-Fighter/Martelo.png')";
-//   } else {
-//     fighter.style.backgroundImage = "url('/picsMovements/Ginga-F.png')";
-//   }
-// }
-
-// function renderKick3() {
-//   if (state.kick3 === true) {
-//     fighter.style.backgroundImage = "url('/picsMovements/Kicks/K-Fighter/Macaco.png')";
-//     // fighter.style.width = '500px';
-//   } else {
-//     fighter.style.backgroundImage = "url('/picsMovements/Ginga-F.png')";
-//     // fighter.style.width = '350px;';
-//   }
-// }
-
-// function renderKick4() {
-//   if (state.kick4) {
-//     fighter.classList.add('kick4');
-//   } else {
-//     fighter.classList.remove('kick4');
-//   }
-// }
-
-// function renderKick5() {
-//   if (state.kick5) {
-//     fighter.classList.add('kick5');
-//   } else {
-//     fighter.classList.remove('kick5');
-//   }
-// }
-
-// function renderKick6() {
-//   if (state.kick6) {
-//     fighter.classList.add('kick6');
-//   } else {
-//     fighter.classList.remove('kick6');
-//   }
-// }

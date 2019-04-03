@@ -172,6 +172,29 @@
   margin-bottom: 10px;
 }
 
+/*middle part*/
+
+.middlePart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.startPauseButton button {
+  width: 100px;
+  height: 50px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.healthAndScore {
+  margin-right: 550px;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  justify-content: space-between;
+}
+
 /*bottom part*/
 
 .bottomPart {
