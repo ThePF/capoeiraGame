@@ -7,7 +7,7 @@
 .background {
   background-image: url('https://images.unsplash.com/photo-1468879823303-35edd50416dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=990&q=80');
   background-size: cover;
-  height: 950px;
+  height: 920px;
   background-position: center;
 
   display: flex;
@@ -177,7 +177,7 @@
 .bottomPart {
   width: inherit;
   height: 500px;
-  margin: 60px 60px;
+  margin: 60px 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -214,15 +214,36 @@
 .opponentDisplay {
   width: 500px;
   height: 350px;
-  background-color: lightcoral;
+  background-color: grey;
+  opacity: 0.5;
   margin-top: 150px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  border: 2px solid black;
+}
+
+.backOppDis {
+  height: 330;
+  width: inherit;
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+}
+
+.oppDis {
+  background-image: url('/picsMovements/Ginga-O.png');
+  width: 200px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border: 2px solid black;
 }
 
 .timebar {
   width: inherit;
-  height: 100px;
-  background-color: lightsalmon;
+  height: 30px;
+  opacity: 1;
+  background-color: green;
+  border: 2px solid black;
 }
