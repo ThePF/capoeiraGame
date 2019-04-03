@@ -219,7 +219,6 @@
   margin-top: 150px;
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
 }
 
 .backOppDis {
@@ -227,7 +226,9 @@
   width: inherit;
   display: flex;
   border: 2px solid black;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .oppDis {
@@ -237,7 +238,6 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
-  border: 2px solid black;
 }
 
 .timebar {
@@ -245,5 +245,4 @@
   height: 30px;
   opacity: 1;
   background-color: green;
-  border: 2px solid black;
 }

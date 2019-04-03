@@ -1,14 +1,12 @@
 const c = document.getElementById('countdown');
 let time = 5;
-let nextMove = '';
+let nextMove = '/picsMovements/Ginga-O.png';
 let nextMoveWidth = '';
 
 const interval = setInterval(() => {
-  if (time == 1) {
-    renderOppMove();
-  }
   if (time <= 0) {
     time = 5;
+    renderOppMove();
     renderRanDisMove();
   } else {
     c.innerHTML = time--;
@@ -17,88 +15,84 @@ const interval = setInterval(() => {
 
 let opponentMoves = [
   {
-    src: '/picsMovements/Kicks/K-Opponent/Meia Lua de frente-O.jpeg',
-    width: '200px',
+    src: '/picsMovements/Kicks/K-Opponent/Meia_Lua_de_frente-O.png',
+    width: '300px'
+  },
+  {
+    src: (url = '/picsMovements/Kicks/K-Opponent/Meia_Lua_de_compasso-O.png'),
+    width: '430px',
     height: '250px'
   },
   {
-    src: (url = '/picsMovements/Kicks/K-Opponent/Meia Lua de compasso-O.jpeg'),
-    width: '150px',
+    src: (url = '/picsMovements/Kicks/K-Opponent/Martelo2-O.png'),
+    width: '350px',
     height: '250px'
   },
   {
-    src: (url = '/picsMovements/Kicks/K-Opponent/Martelo2-O.jpeg'),
-    width: '150px',
+    src: (url = '/picsMovements/Kicks/K-Opponent/Macaco-O.png'),
+    width: '500px',
     height: '250px'
   },
   {
-    src: (url = '/picsMovements/Kicks/K-Opponent/Macaco-O.jpeg'),
-    width: '150px',
-    height: '250px'
-  },
-  {
-    src: (url = '/picsMovements/Kicks/K-Opponent/Jump Kick-O.jpeg'),
-    width: '150px',
+    src: (url = '/picsMovements/Kicks/K-Opponent/Jump_Kick-O.png'),
+    width: '320px',
     height: '250px'
   },
   {
     src: (url = '/picsMovements/Kicks/K-Opponent/Cartwheel kick-O.png'),
-    width: '150px',
+    width: '450px',
     height: '250px'
   },
   {
     src: (url = '/picsMovements/Defense/D-Opponent/Rastera-O.png'),
-    width: '150px',
+    width: '480px',
     height: '250px'
   },
   {
-    src: (url = '/picsMovements/Defense/D-Opponent/Queda de quatro-O.jpeg'),
-    width: '150px',
+    src: (url = '/picsMovements/Defense/D-Opponent/Queda_de_quatro-O.png'),
+    width: '320px',
     height: '250px'
   },
   {
-    src: (url = '/picsMovements/Defense/D-Opponent/Negativa-O.jpeg'),
-    width: '150px',
+    src: (url = '/picsMovements/Defense/D-Opponent/Negativa-O.png'),
+    width: '380px',
     height: '250px'
   },
   {
-    src: (url = '/picsMovements/Defense/D-Opponent/Esquiva de lado-O.jpeg'),
-    width: '150px',
+    src: (url = '/picsMovements/Defense/D-Opponent/Esquiva_de_lado-O.png'),
+    width: '480px',
     height: '250px'
   },
   {
-    src: (url = '/picsMovements/Defense/D-Opponent/Cocorinha-O.jpeg'),
-    width: '150px',
+    src: (url = '/picsMovements/Defense/D-Opponent/Cocorinha-O.png'),
+    width: '220px',
     height: '250px'
   },
   {
-    src: (url = '/picsMovements/Acrobatics/A-Opponent/Macaco side-O.jpeg'),
-    width: '150px',
+    src: (url = '/picsMovements/Acrobatics/A-Opponent/Macaco_side-O.png'),
+    width: '290px',
     height: '250px'
   },
   {
-    src: (url = '/picsMovements/Acrobatics/A-Opponent/Cartwheel-O.jpeg'),
-    width: '150px',
+    src: (url = '/picsMovements/Acrobatics/A-Opponent/Cartwheel-O.png'),
+    width: '450px',
     height: '250px'
   },
   {
-    src: (url = '/picsMovements/Acrobatics/A-Opponent/Cartwheel straight-O.jpeg'),
-    width: '150px',
+    src: (url = '/picsMovements/Acrobatics/A-Opponent/Cartwheel_straight-O.png'),
+    width: '580px',
     height: '250px'
   }
 ];
 
 function renderRanDisMove() {
   let randomOppMove = Math.floor(Math.random() * opponentMoves.length);
-  let nextOppDisMove = opponentMoves[0];
+  let nextOppDisMove = opponentMoves[randomOppMove];
   nextMove = nextOppDisMove.src;
   nextMoveWidth = nextOppDisMove.width;
   let curOppDisMove = document.querySelector('.oppDis');
   curOppDisMove.style.backgroundImage = `url("${nextOppDisMove.src}")`;
 }
-
-// function renderOppMove() {
-//   let curOppMov =
 
 const renderOppMove = () => {
   let oppMove = document.querySelector('.opponent');
