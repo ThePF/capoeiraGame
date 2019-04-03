@@ -183,7 +183,7 @@
 }
 
 .roda {
-  width: 800px;
+  width: 1000px;
   height: inherit;
 
   margin-left: 200px;
@@ -198,7 +198,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .opponent {
