@@ -1,5 +1,5 @@
 const c = document.getElementById('countdown');
-let time = 2;
+let time = 5;
 let nextMove = '/picsMovements/Ginga-O.png';
 let nextMoveWidth = '';
 let oppMove = '';
@@ -10,15 +10,13 @@ function startGame() {
   console.log('start game');
   const interval = setInterval(() => {
     if (time <= 0) {
-      time = 2;
+      time = 5;
       renderOppMove();
       renderRanDisMove();
     } else {
       c.innerHTML = time--;
     }
   }, 1000);
-  reduceHealth();
-  increasePoints();
 }
 
 // function renderOpponent() {
@@ -105,7 +103,7 @@ let opponentMoves = [
 
 function renderRanDisMove() {
   let randomOppMove = Math.floor(Math.random() * opponentMoves.length);
-  let nextOppDisMove = opponentMoves[0];
+  let nextOppDisMove = opponentMoves[randomOppMove];
   nextMove = nextOppDisMove.src;
   nextMoveWidth = nextOppDisMove.width;
   nextMoveMarginLeft = nextOppDisMove.marginLeft;
@@ -118,6 +116,6 @@ const renderOppMove = () => {
   oppMove.style.backgroundImage = `url("${nextMove}")`;
   oppMove.style.width = `${nextMoveWidth}`;
   oppMove.style.marginLeft = `${nextMoveMarginLeft}`;
-  //   reduceHealth();
-  //   increasePoints();
+
+  console.log('opp file: ', oppMove);
 };

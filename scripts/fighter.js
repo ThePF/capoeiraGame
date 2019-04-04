@@ -63,6 +63,7 @@ document.addEventListener('keydown', evt => {
   }
 
   renderKick();
+  score()
 });
 
 const fighter = document.querySelector('.fighter');
