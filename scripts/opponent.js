@@ -6,20 +6,42 @@ let oppMove = '';
 let nextMoveMarginLeft = '';
 let intervalId
 let gameOver = false
-
+let mySound
+let myMusic
+let mySoundOnce = false 
 
 function startGame() {
-  //   setInterval();
+    time = 5
+    health = 3
+    points = 0
 
+    if (!mySoundOnce) {
 
-  console.log('start game');
+      const sound = document.createElement("audio");
+      sound.src = '/picsMovements/looperman-l-1564425-0099761-rasputin1963-brasil-ritmo-tropical-9.wav';
+      sound.setAttribute("preload", "auto");
+      sound.setAttribute("controls", "none");
+      sound.setAttribute('loop', true)
+      sound.style.display = "none";
+      document.body.appendChild(sound);
+      sound.play()
+      mySoundOnce = true
+    }
+      
+    
+    
+    Object.keys(state).forEach(v => (state[v] = false));
+    renderKick();
+    score()
+
+    let newHealth = document.getElementById('healthScore');
+        newHealth.innerHTML = `Health = ${health}`
 
   if (gameOver){
-    console.log("removing gameover")
+    renderOppMove()
     document.querySelector('.gameover').style.display = 'none';
-    time = 5
-
   }
+    
   clearInterval(intervalId)
 
 
@@ -36,8 +58,6 @@ function startGame() {
   gameOver = false
 }
 
-// function renderOpponent() {
-// }
 
 let opponentMoves = [
   {
@@ -118,6 +138,7 @@ let opponentMoves = [
   }
 ];
 
+/* Big */
 function renderRanDisMove() {
   let randomOppMove = Math.floor(Math.random() * opponentMoves.length);
   let nextOppDisMove = opponentMoves[randomOppMove];
@@ -128,11 +149,20 @@ function renderRanDisMove() {
   curOppDisMove.style.backgroundImage = `url("${nextOppDisMove.src}")`;
 }
 
+/* Small */
 const renderOppMove = () => {
+
+  if (gameOver){
+    oppMove.style.backgroundImage = `url("/picsMovements/Ginga-O.png")`;
+    oppMove.style.width = `350px`;
+    oppMove.style.height = `500px`;
+    oppMove.style.marginLeft = `1px`;
+
+  } else {
   oppMove = document.querySelector('.opponent');
   oppMove.style.backgroundImage = `url("${nextMove}")`;
   oppMove.style.width = `${nextMoveWidth}`;
   oppMove.style.marginLeft = `${nextMoveMarginLeft}`;
-
+  }
   console.log('opp file: ', oppMove);
 };

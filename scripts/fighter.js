@@ -1,4 +1,5 @@
 let state = {
+  kick0: false,
   kick1: false,
   kick2: false,
   kick3: false,
@@ -69,7 +70,12 @@ document.addEventListener('keyup', evt => {
 const fighter = document.querySelector('.fighter');
 
 function renderKick() {
-  if (state.kick1 === true) {
+  if (state.kick0 === true) {
+    fighter.style.backgroundImage = "url('/picsMovements/Ginga-F.png')";
+    fighter.style.width = '300px';
+    fighter.style.marginRight = '-70px';
+    fighter.style.backgroundPosition = 'bottom';
+  } else if (state.kick1 === true) {
     fighter.style.backgroundImage = "url('/picsMovements/Kicks/K-Fighter/Meia Lua de frente.png')";
     fighter.style.width = '300px';
     fighter.style.marginRight = '-70px';
