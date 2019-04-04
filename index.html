@@ -5,16 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Capoeira Game</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="/style/style.css" />
   </head>
   <body>
       <div class= "startPage">
-          <div class="instructions"></div>
+        <div class= "setInstructionsAndButtons">
           <div class="divPlayButton">
             <button onclick= "shuffleDisplay()" id="playButton">Play</button>
-            <button id="instructionsButton">Instructions</button>
+            <button onclick= "shuffleInstructions()" class="instructionsButton">Instructions</button>
+          <div class="setInstructions">
+            <div class="instructions">
+            <h2 style= "margin-bottom:80px;">The first online Game representing the actual art of doing Capoeira</h2>
+            <div class="commandBar">
+                <div class="commandPics">
+                  <div class="kick1 picOfKick">
+                    <p>A</p>
+                  </div>
+                  <div class="kick2 picOfKick">
+                    <p>S</p>
+                  </div>
+                  <div class="kick3 picOfKick">
+                    <p>D</p>
+                  </div>
+                  <div class="kick4 picOfKick">
+                    <p>F</p>
+                  </div>
+                  <div class="kick5 picOfKick">
+                    <p>G</p>
+                  </div>
+                  <div class="kick6 picOfKick">
+                    <p>H</p>
+                  </div>
+                  <div class="defense1 pickOfDefense">
+                    <p>Q</p>
+                  </div>
+                  <div class="defense2 pickOfDefense">
+                    <p>W</p>
+                  </div>
+                  <div class="defense3 pickOfDefense">
+                    <p>E</p>
+                  </div>
+                  <div class="defense4 pickOfDefense">
+                    <p>R</p>
+                  </div>
+                  <div class="defense5 pickOfDefense">
+                    <p>T</p>
+                  </div>
+                  <div class="acrobatics1 picOfAcrobatics">
+                    <p>X</p>
+                  </div>
+                  <div class="acrobatics2 picOfAcrobatics">
+                    <p>C</p>
+                  </div>
+                  <div class="acrobatics3 picOfAcrobatics">
+                    <p>V</p>
+                  </div>
+                </div>
+              </div>
+            <p style="margin-top:80px; margin-left:30px; margin-right:30px">The next movement of the opponent will be shown in a little display in the bottom right of the page.
+              The aim is to do the right countermovement in order to avoid a collision. Above you can see the key commands
+            that can be used for the according kicks(1-6), defense(7-11) or acrobatic moves(12-14). Watch out, not every 
+            defense move is the right one in order to avoid getting kicked. </p>
           </div>
+         </div>
+          </div>
+        </div>
         </div>
     <div class="background">
       <div class="centerCommandBar">
@@ -95,7 +151,7 @@
             <div class="oppDis"></div>
           </div>
           <div class="timebar">
-            <h1 id="countdown">5</h1>
+            <h1 id="countdown">3</h1>
           </div>
         </div>
       </div>

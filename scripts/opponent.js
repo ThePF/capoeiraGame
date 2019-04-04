@@ -1,5 +1,5 @@
 const c = document.getElementById('countdown');
-let time = 5;
+let time = 3;
 let nextMove = '/picsMovements/Ginga-O.png';
 let nextMoveWidth = '';
 let oppMove = '';
@@ -11,7 +11,7 @@ let myMusic
 let mySoundOnce = false 
 
 function startGame() {
-    time = 5
+    time = 3
     health = 3
     points = 0
 
@@ -47,7 +47,7 @@ function startGame() {
 
   intervalId = setInterval(() => {
     if (time <= 0) {
-      time = 5;
+      time = 3;
       renderOppMove();
       renderRanDisMove();
     } else {

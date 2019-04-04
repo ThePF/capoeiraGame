@@ -14,21 +14,38 @@
 
 }
 
+.setInstructionsAndButtons {
+  display: flex; 
+  height: inherit; 
+  width: 500px; 
+
+}
+
 .divPlayButton {
   display: flex;
   margin-left: 150px;  
   flex-direction: column; 
-
+  margin-top: 150px; 
 }
 
-
+.setInstructions {
+  display: flex; 
+  align-items: space-between;
+  text-align: center; 
+  color: white; 
+  font-size: 2em; 
+  flex-direction: column;
+  
+}
 
 .instructions {
-  width: 1000px; 
+  width: 1600px; 
   height: 600px; 
-  background-color:blue; 
-  margin-left: 2000px; 
+  background-color: grey; 
+  margin-top:  -2000px;
 
+  opacity: 0.8;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -39,17 +56,18 @@
   font-family: 'Ubuntu', sans-serif;
   border-radius: 20px; 
   background-color: darkgoldenrod;
+  font-family: 'Lobster', cursive;
 }
 
-#instructionsButton {
+.instructionsButton {
   width: 250px; 
   height: 60px;
   font-size: 2.5em; 
   font-family: 'Ubuntu', sans-serif;
   border-radius: 20px; 
-  background-color: darkgreen;
+  background-color: darkolivegreen;
   margin-top: 30px; 
-  color: white; 
+  font-family: 'Lobster', cursive;
 }
 
 .gameover {
@@ -243,9 +261,9 @@
   margin-top: 50px;
   background-color: grey;
   border-radius: 20px; 
-  font-family: 'Ubuntu', sans-serif;
   font-size: 2em; 
   color: white; 
+  font-family: 'Lobster', cursive;
 }
 
 .healthAndScore {
@@ -255,6 +273,7 @@
   width: 500px;
   justify-content: space-between;
   font-size: 1.2em; 
+  font-family: 'Lobster', cursive;
 }
 
 /*bottom part*/

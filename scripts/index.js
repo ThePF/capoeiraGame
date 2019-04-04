@@ -5,7 +5,7 @@ const shuffleDisplay = () => {
 }
 
 const shuffleInstructions = () => {
-    document.querySelector("'instructionsbutton")
+    document.querySelector(".instructions").style.marginTop ="1px"
 }
 
 

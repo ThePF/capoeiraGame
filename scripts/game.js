@@ -252,7 +252,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Acrobatics/A-Opponent/Cartwheel-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsMovements/Acrobatics/A-Opponent/Cartwheel_straight-O.png")`){
     if (state.kick1 === true ||   
       state.kick3 === true ||    
       state.kick5 === true ||   
