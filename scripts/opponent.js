@@ -1,5 +1,5 @@
 const c = document.getElementById('countdown');
-let time = 5;
+let time = 2;
 let nextMove = '/picsMovements/Ginga-O.png';
 let nextMoveWidth = '';
 let oppMove = '';
@@ -10,13 +10,15 @@ function startGame() {
   console.log('start game');
   const interval = setInterval(() => {
     if (time <= 0) {
-      time = 5;
+      time = 2;
       renderOppMove();
       renderRanDisMove();
     } else {
       c.innerHTML = time--;
     }
   }, 1000);
+  reduceHealth();
+  increasePoints();
 }
 
 // function renderOpponent() {
@@ -37,19 +39,13 @@ let opponentMoves = [
     src: (url = '/picsMovements/Kicks/K-Opponent/Martelo2-O.png'),
     width: '350px',
     height: '250px',
-    marginLeft: '1px'
+    marginLeft: '-50px'
   },
   {
     src: (url = '/picsMovements/Kicks/K-Opponent/Macaco-O.png'),
     width: '500px',
     height: '250px',
-    marginLeft: '1px'
-  },
-  {
-    src: (url = '/picsMovements/Kicks/K-Opponent/Jump_Kick-O.png'),
-    width: '320px',
-    height: '250px',
-    marginLeft: '1px'
+    marginLeft: '-60px'
   },
   {
     src: (url = '/picsMovements/Kicks/K-Opponent/Cartwheel kick-O.png'),
@@ -61,7 +57,7 @@ let opponentMoves = [
     src: (url = '/picsMovements/Defense/D-Opponent/Rastera-O.png'),
     width: '480px',
     height: '250px',
-    marginLeft: '1px'
+    marginLeft: '-80px'
   },
   {
     src: (url = '/picsMovements/Defense/D-Opponent/Queda_de_quatro-O.png'),
@@ -73,19 +69,19 @@ let opponentMoves = [
     src: (url = '/picsMovements/Defense/D-Opponent/Negativa-O.png'),
     width: '380px',
     height: '250px',
-    marginLeft: '1px'
+    marginLeft: '-80px'
   },
   {
     src: (url = '/picsMovements/Defense/D-Opponent/Esquiva_de_lado-O.png'),
     width: '480px',
     height: '250px',
-    marginLeft: '1px'
+    marginLeft: '-50px'
   },
   {
     src: (url = '/picsMovements/Defense/D-Opponent/Cocorinha-O.png'),
     width: '220px',
     height: '250px',
-    marginLeft: '1px'
+    marginLeft: '-40px'
   },
   {
     src: (url = '/picsMovements/Acrobatics/A-Opponent/Macaco_side-O.png'),
@@ -109,7 +105,7 @@ let opponentMoves = [
 
 function renderRanDisMove() {
   let randomOppMove = Math.floor(Math.random() * opponentMoves.length);
-  let nextOppDisMove = opponentMoves[2];
+  let nextOppDisMove = opponentMoves[0];
   nextMove = nextOppDisMove.src;
   nextMoveWidth = nextOppDisMove.width;
   nextMoveMarginLeft = nextOppDisMove.marginLeft;
@@ -122,6 +118,6 @@ const renderOppMove = () => {
   oppMove.style.backgroundImage = `url("${nextMove}")`;
   oppMove.style.width = `${nextMoveWidth}`;
   oppMove.style.marginLeft = `${nextMoveMarginLeft}`;
-  reduceHealth();
-  increasePoints();
+  //   reduceHealth();
+  //   increasePoints();
 };
