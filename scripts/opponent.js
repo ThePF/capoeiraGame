@@ -4,11 +4,26 @@ let nextMove = '/picsMovements/Ginga-O.png';
 let nextMoveWidth = '';
 let oppMove = '';
 let nextMoveMarginLeft = '';
+let intervalId
+let gameOver = false
+
 
 function startGame() {
   //   setInterval();
+
+
   console.log('start game');
-  const interval = setInterval(() => {
+
+  if (gameOver){
+    console.log("removing gameover")
+    document.querySelector('.gameover').style.display = 'none';
+    time = 5
+
+  }
+  clearInterval(intervalId)
+
+
+  intervalId = setInterval(() => {
     if (time <= 0) {
       time = 5;
       renderOppMove();
@@ -16,7 +31,9 @@ function startGame() {
     } else {
       c.innerHTML = time--;
     }
+
   }, 1000);
+  gameOver = false
 }
 
 // function renderOpponent() {

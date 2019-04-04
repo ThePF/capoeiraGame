@@ -15,7 +15,7 @@ let state = {
   acrobatics3: false
 };
 
-document.addEventListener('keydown', evt => {
+document.addEventListener('keyup', evt => {
   Object.keys(state).forEach(v => (state[v] = false));
   switch (evt.code) {
     case 'KeyA':

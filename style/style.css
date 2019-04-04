@@ -30,6 +30,14 @@
   
 }
 
+.gameover {
+  font-size: 4em; 
+  margin-left: 400px; 
+  margin-bottom: -200px; 
+  position: absolute; 
+  top: 300px; 
+}
+
 .background {
   background-image: url('https://images.unsplash.com/photo-1468879823303-35edd50416dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=990&q=80');
   background-size: cover;
