@@ -18,7 +18,7 @@ function startGame() {
     if (!mySoundOnce) {
 
       const sound = document.createElement("audio");
-      sound.src = '/picsMovements/looperman-l-1564425-0099761-rasputin1963-brasil-ritmo-tropical-9.wav';
+      sound.src = '/picsMovements/Sou Capoeira.mp3';
       sound.setAttribute("preload", "auto");
       sound.setAttribute("controls", "none");
       sound.setAttribute('loop', true)
