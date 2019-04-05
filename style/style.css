@@ -89,18 +89,18 @@
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  z-index: 97;
+  
 }
 
+/* 
 .sunset {
   width: 800px; 
   height: 200px; 
   top: 500px; 
   left: 200px;  
   background-color: blue; 
-  z-index: ;
-
-}
+  
+} */
 
 
 /*commandBar*/
@@ -108,7 +108,7 @@
 .centerCommandBar {
   display: flex;
   justify-content: center;
-  z-index: 99
+ 
 }
 
 .commandBar {
