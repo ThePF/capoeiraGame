@@ -18,7 +18,7 @@ function startGame() {
     if (!mySoundOnce) {
 
       const sound = document.createElement("audio");
-      sound.src = 'picsMovements/Sou Capoeira.mp3';
+      sound.src = 'picsmovements/soucapoeira.mp3';
       sound.setAttribute("preload", "auto");
       sound.setAttribute("controls", "none");
       sound.setAttribute('loop', true)
