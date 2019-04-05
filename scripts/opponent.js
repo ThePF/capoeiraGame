@@ -1,6 +1,6 @@
 const c = document.getElementById('countdown');
-let time = 3;
-let nextMove = '/picsMovements/Ginga-O.png';
+let time = 5;
+let nextMove = 'picsMovements/Ginga-O.png';
 let nextMoveWidth = '';
 let oppMove = '';
 let nextMoveMarginLeft = '';
@@ -18,7 +18,7 @@ function startGame() {
     if (!mySoundOnce) {
 
       const sound = document.createElement("audio");
-      sound.src = '/picsMovements/Sou Capoeira.mp3';
+      sound.src = 'picsMovements/Sou Capoeira.mp3';
       sound.setAttribute("preload", "auto");
       sound.setAttribute("controls", "none");
       sound.setAttribute('loop', true)
@@ -66,77 +66,77 @@ function startGame() {
 
 let opponentMoves = [
   {
-    src: '/picsMovements/Kicks/K-Opponent/Meia_Lua_de_frente-O.png',
+    src: 'picsmovements/kicks/kopponent/meialuadefrenteo.png',
     width: '300px',
     marginLeft: '1px'
   },
   {
-    src: (url = '/picsMovements/Kicks/K-Opponent/Meia_Lua_de_compasso-O.png'),
+    src: (url = 'picsmovements/kicks/kopponent/meialuadecompassoo.png'),
     width: '430px',
     marginLeft: '-70px'
   },
   {
-    src: (url = '/picsMovements/Kicks/K-Opponent/Martelo2-O.png'),
+    src: (url = 'picsmovements/kicks/kopponent/martelo2o.png'),
     width: '350px',
     height: '250px',
     marginLeft: '-50px'
   },
   {
-    src: (url = '/picsMovements/Kicks/K-Opponent/Macaco-O.png'),
+    src: (url = 'picsmovements/kicks/kopponent/macacoo.png'),
     width: '500px',
     height: '250px',
     marginLeft: '-60px'
   },
   {
-    src: (url = '/picsMovements/Kicks/K-Opponent/Cartwheel kick-O.png'),
+    src: (url = 'picsmovements/kicks/kopponent/cartwheelkicko.png'),
     width: '450px',
     height: '250px',
     marginLeft: '1px'
   },
   {
-    src: (url = '/picsMovements/Defense/D-Opponent/Rastera-O.png'),
+    src: (url = 'picsmovements/defense/dopponent/rasterao.png'),
     width: '480px',
     height: '250px',
     marginLeft: '-80px'
   },
   {
-    src: (url = '/picsMovements/Defense/D-Opponent/Queda_de_quatro-O.png'),
+    src: (url = 'picsmovements/defense/dopponent/quedadequatroo.png'),
     width: '320px',
     height: '250px',
     marginLeft: '1px'
   },
   {
-    src: (url = '/picsMovements/Defense/D-Opponent/Negativa-O.png'),
+    src: (url = 'picsmovements/defense/dopponent/negativao.png'),
     width: '380px',
     height: '250px',
     marginLeft: '-80px'
   },
   {
-    src: (url = '/picsMovements/Defense/D-Opponent/Esquiva_de_lado-O.png'),
+    src: (url = 'picsmovements/defense/dopponent/esquivadeladoo.png'),
     width: '480px',
     height: '250px',
     marginLeft: '-50px'
   },
   {
-    src: (url = '/picsMovements/Defense/D-Opponent/Cocorinha-O.png'),
+    src: (url = 'picsmovements/defense/dopponent/cocorinhao.png'),
     width: '220px',
     height: '250px',
     marginLeft: '-40px'
   },
   {
-    src: (url = '/picsMovements/Acrobatics/A-Opponent/Macaco_side-O.png'),
+    src: (url = 'picsmovements/acrobatics/aopponent/macacosideo.png'),
     width: '290px',
     height: '250px',
     marginLeft: '1px'
   },
   {
-    src: (url = '/picsMovements/Acrobatics/A-Opponent/Cartwheel-O.png'),
+    src: (url = 'picsmovements/acrobatics/aopponent/cartwheelstraighto.png'),
     width: '450px',
     height: '250px',
     marginLeft: '1px'
   },
   {
-    src: (url = '/picsMovements/Acrobatics/A-Opponent/Cartwheel_straight-O.png'),
+    src: (url = 'picsmovements/acrobatics/aopponent/cartwheelo.png'),
     width: '580px',
     height: '250px',
     marginLeft: '1px'
@@ -158,7 +158,7 @@ function renderRanDisMove() {
 const renderOppMove = () => {
 
   if (gameOver){
-    oppMove.style.backgroundImage = `url("/picsMovements/Ginga-O.png")`;
+    oppMove.style.backgroundImage = `url("/picsmovements/gingao.png")`;
     oppMove.style.width = `350px`;
     oppMove.style.height = `500px`;
     oppMove.style.marginLeft = `1px`;

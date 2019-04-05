@@ -21,7 +21,7 @@ var chosenMove = document.querySelector('.opponent');
 
 function score() {
   if (health === 0) return
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Kicks/K-Opponent/Meia_Lua_de_frente-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/kicks/kopponent/meialuadefrenteo.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -39,7 +39,7 @@ function score() {
       }
   }
   
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Kicks/K-Opponent/Meia_Lua_de_compasso-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/kicks/kopponent/meialuadecompassoo.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -57,7 +57,7 @@ function score() {
       }
   }
   
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Kicks/K-Opponent/Martelo2-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/kicks/kopponent/martelo2o.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -76,7 +76,7 @@ function score() {
       }
   }
   
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Kicks/K-Opponent/Macaco-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/kicks/kopponent/macacoo.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -94,7 +94,7 @@ function score() {
       }
   }
   
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Kicks/K-Opponent/Cartwheel kick-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/kicks/kopponent/cartwheelkicko.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -112,7 +112,7 @@ function score() {
       }
   }
   
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Defense/D-Opponent/Rastera-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/defense/dopponent/rasterao.png")`){
     if(state.kick1 === true ||
        state.kick2 === true ||
        state.kick3 === true ||
@@ -132,7 +132,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Defense/D-Opponent/Queda_de_quatro-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/defense/dopponent/quedadequatroo.png")`){
     if(state.kick1 === true ||
       state.kick2 === true ||
       state.kick3 === true ||
@@ -151,7 +151,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Defense/D-Opponent/Negativa-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/defense/dopponent/negativao.png")`){
     if(state.kick1 === true ||
       state.kick2 === true ||
       state.kick3 === true ||
@@ -171,7 +171,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Defense/D-Opponent/Esquiva_de_lado-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/defense/dopponent/esquivadeladoo.png")`){
     if(state.kick1 === true ||
       state.kick2 === true ||
       state.kick3 === true ||
@@ -190,7 +190,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Defense/D-Opponent/Cocorinha-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/defense/dopponent/cocorinhao.png")`){
     if(state.kick1 === true ||   
       state.kick3 === true || 
       state.kick5 === true){
@@ -204,7 +204,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Acrobatics/A-Opponent/Macaco_side-O.png")`){
+if(chosenMove.style.backgroundImage == `url("picsmovements/acrobatics/aopponent/macacosideo.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -222,7 +222,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Acrobatics/A-Opponent/Cartwheel-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/acrobatics/aopponent/cartwheelo.png")`){
     if (state.kick1 === true ||
       state.kick2 === true ||
       state.kick3 === true ||
@@ -247,7 +247,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("/picsMovements/Acrobatics/A-Opponent/Cartwheel_straight-O.png")`){
+  if(chosenMove.style.backgroundImage == `url("picsmovements/acrobatics/aopponent/cartwheelstraighto.png")`){
     if (state.kick1 === true ||   
       state.kick3 === true ||    
       state.kick5 === true ||   

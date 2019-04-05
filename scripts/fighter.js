@@ -71,83 +71,85 @@ const fighter = document.querySelector('.fighter');
 
 function renderKick() {
   if (state.kick0 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Ginga-F.png')";
+    fighter.style.backgroundImage = "url('picsmovements/gingaf.png')";
     fighter.style.width = '300px';
     fighter.style.marginRight = '-70px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.kick1 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Kicks/K-Fighter/Meia Lua de frente.png')";
+    fighter.style.backgroundImage = "url('picsmovements/kicks/kfighter/meialuadefrentef.png')";
     fighter.style.width = '300px';
     fighter.style.marginRight = '-70px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.kick2 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Kicks/K-Fighter/Meia Lua de compasso.png')";
+    fighter.style.backgroundImage = "url('picsmovements/kicks/kfighter/meialuadecompassof.png')";
     fighter.style.width = '430px';
     fighter.style.marginRight = '-100px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.kick3 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Kicks/K-Fighter/Martelo.png')";
+    fighter.style.backgroundImage = "url('picsmovements/kicks/kfighter/martelof.png')";
     fighter.style.width = '350px';
     fighter.style.marginRight = '-100px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.kick4 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Kicks/K-Fighter/Macaco.png')";
+    fighter.style.backgroundImage = "url('picsmovements/kicks/kfighter/macacof.png')";
     fighter.style.width = '500px';
     fighter.style.marginRight = '-170px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.kick5 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Kicks/K-Fighter/Jump Kick.png')";
+    fighter.style.backgroundImage = "url('picsmovements/kicks/kfighter/jumpkickf.png')";
     fighter.style.width = '320px';
     fighter.style.marginRight = '-130px';
     fighter.style.backgroundPosition = 'top';
   } else if (state.kick6 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Kicks/K-Fighter/Cartwheel_kick-F.png')";
+    fighter.style.backgroundImage = "url('picsmovements/kicks/kfighter/cartwheelkickf.png')";
     fighter.style.width = '450px';
     fighter.style.marginRight = '-140px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.defense1 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Defense/D-Fighter/Negativa-F.png')";
+    fighter.style.backgroundImage = "url('picsmovements/defense/dfighter/negativaf.png')";
     fighter.style.width = '380px';
     fighter.style.marginRight = '-70px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.defense2 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Defense/D-Fighter/Queda de quatro-F.png')";
+    fighter.style.backgroundImage = "url('picsmovements/defense/dfighter/quedadequatrof.png')";
     fighter.style.width = '320px';
     fighter.style.marginRight = '-70px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.defense3 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Defense/D-Fighter/Cocorinha-F.png')";
+    fighter.style.backgroundImage = "url('picsmovements/defense/dfighter/cocorinhaf.png')";
     fighter.style.width = '220px';
     fighter.style.marginRight = '-40px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.defense4 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Defense/D-Fighter/Esquiva de lado-F.png')";
+    fighter.style.backgroundImage = "url('picsmovements/defense/dfighter/esquivadeladof.png')";
+
     fighter.style.width = '480px';
     fighter.style.marginRight = '-80px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.defense5 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Defense/D-Fighter/Rastera-F.png')";
+    fighter.style.backgroundImage = "url('picsmovements/defense/dfighter/rasteraf.png')";
     fighter.style.width = '480px';
     fighter.style.marginRight = '-120px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.acrobatics1 === true) {
     fighter.style.backgroundImage =
-      "url('/picsMovements/Acrobatics/A-Fighter/Cartwheel straight-F.png')";
+      "url('picsmovements/acrobatics/afighter/cartwheelstraightf.png')";
     fighter.style.width = '580px';
     fighter.style.marginRight = '-120px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.acrobatics2 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Acrobatics/A-Fighter/Macaco side-F.png')";
+    fighter.style.backgroundImage = "url('picsmovements/acrobatics/afighter/macacosidef.png')";
     fighter.style.width = '290px';
     fighter.style.marginRight = '-120px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.acrobatics3 === true) {
-    fighter.style.backgroundImage = "url('/picsMovements/Acrobatics/A-Fighter/Cartwheel-F.png')";
+    fighter.style.backgroundImage = "url('picsmovements/acrobatics/afighter/cartwheelf.png')";
+
     fighter.style.width = '450px';
     fighter.style.marginRight = '-100px';
     fighter.style.backgroundPosition = 'bottom';
   } else {
-    fighter.style.backgroundImage = "url('/picsMovements/Ginga-F.png')";
+    fighter.style.backgroundImage = "url('picsmovements/gingaf.png')";
     fighter.style.width = '350px';
     fighter.style.backgroundPosition = 'bottom';
     fighter.style.marginRight = '0px';
