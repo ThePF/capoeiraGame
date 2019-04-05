@@ -1,9 +1,4 @@
 
-// let playBtn = document.getElementById('playButton');
-// playBtn.addEventListener('click', evt => {
-//   document.getElementsByClassName('startPage').style.display = "none"
-// });
-
 
 
 

@@ -11,8 +11,8 @@ let myMusic
 let mySoundOnce = false 
 
 function startGame() {
-    time = 3
-    health = 3
+    time = 5
+    health = 4
     points = 0
 
     if (!mySoundOnce) {
@@ -46,12 +46,17 @@ function startGame() {
 
 
   intervalId = setInterval(() => {
-    if (time <= 0) {
-      time = 3;
+    if (time < 0) {
+      time = 5;
+      document.querySelector('.timebar').style.backgroundColor ="green";
       renderOppMove();
       renderRanDisMove();
     } else {
+      document.querySelector('.timebar').style.width = `${100*time}px`
       c.innerHTML = time--;
+      if (time <= 1) {
+        document.querySelector('.timebar').style.backgroundColor ="red";
+      }
     }
 
   }, 1000);

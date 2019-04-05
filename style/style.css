@@ -26,6 +26,7 @@
   margin-left: 150px;  
   flex-direction: column; 
   margin-top: 150px; 
+  
 }
 
 .setInstructions {
@@ -35,6 +36,7 @@
   color: white; 
   font-size: 2em; 
   flex-direction: column;
+  
   
 }
 
@@ -53,21 +55,21 @@
   width: 180px; 
   height: 100px;
   font-size: 4em; 
-  font-family: 'Ubuntu', sans-serif;
   border-radius: 20px; 
   background-color: darkgoldenrod;
   font-family: 'Lobster', cursive;
+  border: 2px solid beige;
 }
 
 .instructionsButton {
   width: 250px; 
   height: 60px;
   font-size: 2.5em; 
-  font-family: 'Ubuntu', sans-serif;
   border-radius: 20px; 
   background-color: darkolivegreen;
   margin-top: 30px; 
   font-family: 'Lobster', cursive;
+  border: 2px solid beige;
 }
 
 .gameover {
@@ -81,19 +83,32 @@
 .background {
   background-image: url('https://images.unsplash.com/photo-1468879823303-35edd50416dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=990&q=80');
   background-size: cover;
-  height: 920px;
+  height: 930px;
   background-position: center;
   display: flex;
   display: none;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 97;
 }
+
+.sunset {
+  width: 800px; 
+  height: 200px; 
+  top: 500px; 
+  left: 200px;  
+  background-color: blue; 
+  z-index: ;
+
+}
+
 
 /*commandBar*/
 
 .centerCommandBar {
   display: flex;
   justify-content: center;
+  z-index: 99
 }
 
 .commandBar {
@@ -285,19 +300,46 @@
   justify-content: space-between;
 }
 
+.birdsDiv {
+  width: 300px; 
+  height: inherit; 
+
+}
+
+.birdsGif {
+  background-image: url("/picsMovements/166ad49c.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: inherit; 
+  height: inherit; 
+  animation-name: birdsGif;
+  animation-duration: 70s;
+  position: absolute;
+  z-index: 95;
+  bottom: 250px; 
+}
+
+
+@keyframes birdsGif {
+  0% {left: 1800px;}
+  25% {left: 1100px;}
+  50% {left: 500px;}
+  75% {left: 0px;}
+  80% {left: -200px;}
+  100% {left: -500px;}
+}
+
 
 .roda {
   width: 1000px;
   height: inherit;
-
-  margin-left: 200px;
+  margin-left: 100px;
   display: flex;
 }
 
 .fighter {
   width: 350px;
   height: inherit;
-
   background-image: url('/picsMovements/Ginga-F.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -318,15 +360,14 @@
 .opponentDisplay {
   width: 500px;
   height: 350px;
-  background-color: grey;
-  opacity: 0.5;
+  background-color:rgba(171, 183, 183, 0.5);
   margin-top: 150px;
   display: flex;
   flex-direction: column;
 }
 
 .backOppDis {
-  height: 330;
+  height: 350;
   width: inherit;
   display: flex;
   border: 2px solid black;
@@ -338,16 +379,17 @@
 .oppDis {
   background-image: url('/picsMovements/Ginga-O.png');
   width: 200px;
-  height: 300px;
+  height: 330px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
 .timebar {
-  width: inherit;
-  height: 30px;
-  opacity: 1;
+  width: 500px;
+  height: 20px;
   background-color: green;
+  font-size: 0px; 
+  border: 1px solid black; 
 }
 
