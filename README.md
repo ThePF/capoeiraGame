@@ -4,7 +4,7 @@ Capoeira is an Afro-Brazilian martial art that combines elements of dance, acrob
 
 Instructions: 
 
-The player can control the mannequin on the left.
+The player controls the mannequin on the left.
 
 he opponent's next movement (right mannequin) will be presented five seconds in advance, on the little display in the bottom left. 
 
