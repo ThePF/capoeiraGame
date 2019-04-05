@@ -11,14 +11,12 @@
   background-image: url('https://backgroundcheckall.com/wp-content/uploads/2018/10/background-capoeira-6.jpg');
   background-size: contain;  
   background-size: cover; 
-
 }
 
 .setInstructionsAndButtons {
   display: flex; 
   height: inherit; 
   width: 500px; 
-
 }
 
 .divPlayButton {
@@ -29,6 +27,15 @@
   
 }
 
+/* .startPageAnimation {
+  width: 200px; 
+  height: 200px;
+  background-image: "https://img00.deviantart.net/3065/i/2008/180/c/b/first_animation_by_respecmedia.gif";
+  background-size: contain; 
+  z-index: 2
+
+} */
+
 .setInstructions {
   display: flex; 
   align-items: space-between;
@@ -36,13 +43,11 @@
   color: white; 
   font-size: 2em; 
   flex-direction: column;
-  
-  
 }
 
 .instructions {
   width: 1600px; 
-  height: 600px; 
+  height: 590px; 
   background-color: grey; 
   margin-top:  -2000px;
 
