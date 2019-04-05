@@ -21,7 +21,7 @@ var chosenMove = document.querySelector('.opponent');
 
 function score() {
   if (health === 0) return
-  if(chosenMove.style.backgroundImage == `url("picsmovements/kicks/kopponent/meialuadefrenteo.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/kicks/kopponent/meialuadefrenteo.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -39,7 +39,7 @@ function score() {
       }
   }
   
-  if(chosenMove.style.backgroundImage == `url("picsmovements/kicks/kopponent/meialuadecompassoo.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/kicks/kopponent/meialuadecompassoo.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -57,7 +57,7 @@ function score() {
       }
   }
   
-  if(chosenMove.style.backgroundImage == `url("picsmovements/kicks/kopponent/martelo2o.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/kicks/kopponent/martelo2o.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -76,7 +76,7 @@ function score() {
       }
   }
   
-  if(chosenMove.style.backgroundImage == `url("picsmovements/kicks/kopponent/macacoo.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/kicks/kopponent/macacoo.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -94,7 +94,7 @@ function score() {
       }
   }
   
-  if(chosenMove.style.backgroundImage == `url("picsmovements/kicks/kopponent/cartwheelkicko.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/kicks/kopponent/cartwheelkicko.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -112,7 +112,7 @@ function score() {
       }
   }
   
-  if(chosenMove.style.backgroundImage == `url("picsmovements/defense/dopponent/rasterao.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/defense/dopponent/rasterao.png")`){
     if(state.kick1 === true ||
        state.kick2 === true ||
        state.kick3 === true ||
@@ -132,7 +132,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("picsmovements/defense/dopponent/quedadequatroo.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/defense/dopponent/quedadequatroo.png")`){
     if(state.kick1 === true ||
       state.kick2 === true ||
       state.kick3 === true ||
@@ -151,7 +151,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("picsmovements/defense/dopponent/negativao.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/defense/dopponent/negativao.png")`){
     if(state.kick1 === true ||
       state.kick2 === true ||
       state.kick3 === true ||
@@ -171,7 +171,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("picsmovements/defense/dopponent/esquivadeladoo.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/defense/dopponent/esquivadeladoo.png")`){
     if(state.kick1 === true ||
       state.kick2 === true ||
       state.kick3 === true ||
@@ -190,7 +190,7 @@ function score() {
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("picsmovements/defense/dopponent/cocorinhao.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/defense/dopponent/cocorinhao.png")`){
     if(state.kick1 === true ||   
       state.kick3 === true || 
       state.kick5 === true){
@@ -204,7 +204,7 @@ function score() {
       }
   }
 
-if(chosenMove.style.backgroundImage == `url("picsmovements/acrobatics/aopponent/macacosideo.png")`){
+if(chosenMove.style.backgroundImage == `url("/picsmovements/acrobatics/aopponent/macacosideo.png")`){
     if(state.defense1 === true ||
       state.defense1 === true ||
       state.defense2 === true ||
@@ -222,7 +222,7 @@ if(chosenMove.style.backgroundImage == `url("picsmovements/acrobatics/aopponent/
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("picsmovements/acrobatics/aopponent/cartwheelo.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/acrobatics/aopponent/cartwheelo.png")`){
     if (state.kick1 === true ||
       state.kick2 === true ||
       state.kick3 === true ||
@@ -247,7 +247,7 @@ if(chosenMove.style.backgroundImage == `url("picsmovements/acrobatics/aopponent/
       }
   }
 
-  if(chosenMove.style.backgroundImage == `url("picsmovements/acrobatics/aopponent/cartwheelstraighto.png")`){
+  if(chosenMove.style.backgroundImage == `url("/picsmovements/acrobatics/aopponent/cartwheelstraighto.png")`){
     if (state.kick1 === true ||   
       state.kick3 === true ||    
       state.kick5 === true ||   

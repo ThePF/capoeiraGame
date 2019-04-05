@@ -1,6 +1,6 @@
 const c = document.getElementById('countdown');
 let time = 5;
-let nextMove = 'picsMovements/Ginga-O.png';
+let nextMove = '/picsmovements/gingao.png';
 let nextMoveWidth = '';
 let oppMove = '';
 let nextMoveMarginLeft = '';
@@ -18,7 +18,7 @@ function startGame() {
     if (!mySoundOnce) {
 
       const sound = document.createElement("audio");
-      sound.src = 'picsmovements/soucapoeira.mp3';
+      sound.src = '/picsmovements/soucapoeira.mp3';
       sound.setAttribute("preload", "auto");
       sound.setAttribute("controls", "none");
       sound.setAttribute('loop', true)
@@ -66,77 +66,77 @@ function startGame() {
 
 let opponentMoves = [
   {
-    src: 'picsmovements/kicks/kopponent/meialuadefrenteo.png',
+    src: '/picsmovements/kicks/kopponent/meialuadefrenteo.png',
     width: '300px',
     marginLeft: '1px'
   },
   {
-    src: (url = 'picsmovements/kicks/kopponent/meialuadecompassoo.png'),
+    src: (url = '/picsmovements/kicks/kopponent/meialuadecompassoo.png'),
     width: '430px',
     marginLeft: '-70px'
   },
   {
-    src: (url = 'picsmovements/kicks/kopponent/martelo2o.png'),
+    src: (url = '/picsmovements/kicks/kopponent/martelo2o.png'),
     width: '350px',
     height: '250px',
     marginLeft: '-50px'
   },
   {
-    src: (url = 'picsmovements/kicks/kopponent/macacoo.png'),
+    src: (url = '/picsmovements/kicks/kopponent/macacoo.png'),
     width: '500px',
     height: '250px',
     marginLeft: '-60px'
   },
   {
-    src: (url = 'picsmovements/kicks/kopponent/cartwheelkicko.png'),
+    src: (url = '/picsmovements/kicks/kopponent/cartwheelkicko.png'),
     width: '450px',
     height: '250px',
     marginLeft: '1px'
   },
   {
-    src: (url = 'picsmovements/defense/dopponent/rasterao.png'),
+    src: (url = '/picsmovements/defense/dopponent/rasterao.png'),
     width: '480px',
     height: '250px',
     marginLeft: '-80px'
   },
   {
-    src: (url = 'picsmovements/defense/dopponent/quedadequatroo.png'),
+    src: (url = '/picsmovements/defense/dopponent/quedadequatroo.png'),
     width: '320px',
     height: '250px',
     marginLeft: '1px'
   },
   {
-    src: (url = 'picsmovements/defense/dopponent/negativao.png'),
+    src: (url = '/picsmovements/defense/dopponent/negativao.png'),
     width: '380px',
     height: '250px',
     marginLeft: '-80px'
   },
   {
-    src: (url = 'picsmovements/defense/dopponent/esquivadeladoo.png'),
+    src: (url = '/picsmovements/defense/dopponent/esquivadeladoo.png'),
     width: '480px',
     height: '250px',
     marginLeft: '-50px'
   },
   {
-    src: (url = 'picsmovements/defense/dopponent/cocorinhao.png'),
+    src: (url = '/picsmovements/defense/dopponent/cocorinhao.png'),
     width: '220px',
     height: '250px',
     marginLeft: '-40px'
   },
   {
-    src: (url = 'picsmovements/acrobatics/aopponent/macacosideo.png'),
+    src: (url = '/picsmovements/acrobatics/aopponent/macacosideo.png'),
     width: '290px',
     height: '250px',
     marginLeft: '1px'
   },
   {
-    src: (url = 'picsmovements/acrobatics/aopponent/cartwheelstraighto.png'),
+    src: (url = '/picsmovements/acrobatics/aopponent/cartwheelstraighto.png'),
     width: '450px',
     height: '250px',
     marginLeft: '1px'
   },
   {
-    src: (url = 'picsmovements/acrobatics/aopponent/cartwheelo.png'),
+    src: (url = '/picsmovements/acrobatics/aopponent/cartwheelo.png'),
     width: '580px',
     height: '250px',
     marginLeft: '1px'
