@@ -64,92 +64,107 @@ document.addEventListener('keyup', evt => {
   }
 
   renderKick();
-  score()
+  score();
 });
 
 const fighter = document.querySelector('.fighter');
 
 function renderKick() {
   if (state.kick0 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/gingaf.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/gingaf.png')";
     fighter.style.width = '300px';
     fighter.style.marginRight = '-70px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.kick1 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/kicks/kfighter/meialuadefrentef.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/meialuadefrentef.png')";
     fighter.style.width = '300px';
     fighter.style.marginRight = '-70px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.kick2 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/kicks/kfighter/meialuadecompassof.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/meialuadecompassof.png')";
     fighter.style.width = '430px';
     fighter.style.marginRight = '-100px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.kick3 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/kicks/kfighter/martelof.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/martelof.png')";
     fighter.style.width = '350px';
     fighter.style.marginRight = '-100px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.kick4 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/kicks/kfighter/macacof.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/macacof.png')";
     fighter.style.width = '500px';
     fighter.style.marginRight = '-170px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.kick5 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/kicks/kfighter/jumpkickf.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/jumpkickf.png')";
     fighter.style.width = '320px';
     fighter.style.marginRight = '-130px';
     fighter.style.backgroundPosition = 'top';
   } else if (state.kick6 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/kicks/kfighter/cartwheelkickf.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/cartwheelkickf.png')";
     fighter.style.width = '450px';
     fighter.style.marginRight = '-140px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.defense1 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/defense/dfighter/negativaf.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Defense/dfighter/negativaf.png')";
     fighter.style.width = '380px';
     fighter.style.marginRight = '-70px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.defense2 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/defense/dfighter/quedadequatrof.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Defense/dfighter/quedadequatrof.png')";
     fighter.style.width = '320px';
     fighter.style.marginRight = '-70px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.defense3 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/defense/dfighter/cocorinhaf.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Defense/dfighter/cocorinhaf.png')";
     fighter.style.width = '220px';
     fighter.style.marginRight = '-40px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.defense4 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/defense/dfighter/esquivadeladof.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Defense/dfighter/esquivadeladof.png')";
 
     fighter.style.width = '480px';
     fighter.style.marginRight = '-80px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.defense5 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/defense/dfighter/rasteraf.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Defense/dfighter/rasteraf.png')";
     fighter.style.width = '480px';
     fighter.style.marginRight = '-120px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.acrobatics1 === true) {
     fighter.style.backgroundImage =
-      "url('/picsmovements/acrobatics/afighter/cartwheelstraightf.png')";
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Acrobatics/afighter/cartwheelstraightf.png')";
     fighter.style.width = '580px';
     fighter.style.marginRight = '-120px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.acrobatics2 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/acrobatics/afighter/macacosidef.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Acrobatics/afighter/macacosidef.png')";
     fighter.style.width = '290px';
     fighter.style.marginRight = '-120px';
     fighter.style.backgroundPosition = 'bottom';
   } else if (state.acrobatics3 === true) {
-    fighter.style.backgroundImage = "url('/picsmovements/acrobatics/afighter/cartwheelf.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Acrobatics/afighter/cartwheelf.png')";
 
     fighter.style.width = '450px';
     fighter.style.marginRight = '-100px';
     fighter.style.backgroundPosition = 'bottom';
   } else {
-    fighter.style.backgroundImage = "url('/picsmovements/gingaf.png')";
+    fighter.style.backgroundImage =
+      "url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/gingaf.png')";
     fighter.style.width = '350px';
     fighter.style.backgroundPosition = 'bottom';
     fighter.style.marginRight = '0px';

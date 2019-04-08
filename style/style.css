@@ -6,25 +6,24 @@
 
 .startPage {
   position: absolute;
-  width:100vw;
+  width: 100vw;
   height: 100vh;
   background-image: url('https://backgroundcheckall.com/wp-content/uploads/2018/10/background-capoeira-6.jpg');
-  background-size: contain;  
-  background-size: cover; 
+  background-size: contain;
+  background-size: cover;
 }
 
 .setInstructionsAndButtons {
-  display: flex; 
-  height: inherit; 
-  width: 500px; 
+  display: flex;
+  height: inherit;
+  width: 500px;
 }
 
 .divPlayButton {
   display: flex;
-  margin-left: 150px;  
-  flex-direction: column; 
-  margin-top: 150px; 
-  
+  margin-left: 150px;
+  flex-direction: column;
+  margin-top: 150px;
 }
 
 /* .startPageAnimation {
@@ -33,56 +32,54 @@
   background-image: "https://img00.deviantart.net/3065/i/2008/180/c/b/first_animation_by_respecmedia.gif";
   background-size: contain; 
   z-index: 2
-
 } */
 
 .setInstructions {
-  display: flex; 
+  display: flex;
   align-items: space-between;
-  text-align: center; 
-  color: white; 
-  font-size: 2em; 
+  text-align: center;
+  color: white;
+  font-size: 2em;
   flex-direction: column;
 }
 
 .instructions {
-  width: 1600px; 
-  height: 590px; 
-  background-color: grey; 
-  margin-top:  -2000px;
+  width: 1600px;
+  height: 590px;
+  background-color: grey;
+  margin-top: -2000px;
 
   opacity: 0.8;
   font-family: 'Ubuntu', sans-serif;
 }
 
-
 #playButton {
-  width: 180px; 
+  width: 180px;
   height: 100px;
-  font-size: 4em; 
-  border-radius: 20px; 
+  font-size: 4em;
+  border-radius: 20px;
   background-color: darkgoldenrod;
   font-family: 'Lobster', cursive;
   border: 2px solid beige;
 }
 
 .instructionsButton {
-  width: 250px; 
+  width: 250px;
   height: 60px;
-  font-size: 2.5em; 
-  border-radius: 20px; 
+  font-size: 2.5em;
+  border-radius: 20px;
   background-color: darkolivegreen;
-  margin-top: 30px; 
+  margin-top: 30px;
   font-family: 'Lobster', cursive;
   border: 2px solid beige;
 }
 
 .gameover {
-  font-size: 4em; 
-  margin-left: 400px; 
-  margin-bottom: -200px; 
-  position: absolute; 
-  top: 300px; 
+  font-size: 4em;
+  margin-left: 400px;
+  margin-bottom: -200px;
+  position: absolute;
+  top: 300px;
 }
 
 .background {
@@ -94,7 +91,6 @@
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 /* 
@@ -107,13 +103,11 @@
   
 } */
 
-
 /*commandBar*/
 
 .centerCommandBar {
   display: flex;
   justify-content: center;
- 
 }
 
 .commandBar {
@@ -153,7 +147,7 @@
 }
 
 .kick1 {
-  background-image: url('/picsmovements/kicks/kfighter/meialuadefrentef.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/meialuadefrentef.png');
   background-size: cover;
   width: 80px;
   height: 110px;
@@ -162,7 +156,7 @@
 }
 
 .kick2 {
-  background-image: url('/picsmovements/kicks/kfighter/meialuadecompassof.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/meialuadecompassof.png');
   background-size: cover;
   width: 90px;
   height: 70px;
@@ -170,7 +164,7 @@
 }
 
 .kick3 {
-  background-image: url('/picsmovements/kicks/kfighter/martelof.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/martelof.png');
   background-size: cover;
   width: 90px;
   height: 110px;
@@ -178,7 +172,7 @@
 }
 
 .kick4 {
-  background-image: url('/picsmovements/kicks/kfighter/macacof.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/macacof.png');
   background-size: cover;
   width: 130px;
   height: 110px;
@@ -186,7 +180,7 @@
 }
 
 .kick5 {
-  background-image: url('/picsmovements/kicks/kfighter/jumpkickf.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/jumpkickf.png');
   background-size: cover;
   width: 90px;
   height: 90px;
@@ -194,7 +188,7 @@
 }
 
 .kick6 {
-  background-image: url('/picsmovements/kicks/kfighter/cartwheelkickf.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Kicks/kfighter/cartwheelkickf.png');
   background-size: cover;
   width: 90px;
   height: 90px;
@@ -202,7 +196,7 @@
 }
 
 .defense1 {
-  background-image: url('/picsmovements/defense/dfighter/negativaf.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Defense/dfighter/negativaf.png');
   background-size: cover;
   width: 110px;
   height: 80px;
@@ -210,7 +204,7 @@
 }
 
 .defense2 {
-  background-image: url('/picsmovements/defense/dfighter/quedadequatrof.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Defense/dfighter/quedadequatrof.png');
   background-size: cover;
   width: 100px;
   height: 100px;
@@ -218,7 +212,7 @@
 }
 
 .defense3 {
-  background-image: url('/picsmovements/defense/dfighter/cocorinhaf.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Defense/dfighter/cocorinhaf.png');
   background-size: cover;
   width: 70px;
   height: 100px;
@@ -226,7 +220,7 @@
 }
 
 .defense4 {
-  background-image: url('/picsmovements/defense/dfighter/esquivadeladof.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Defense/dfighter/esquivadeladof.png');
   background-size: cover;
   width: 140px;
   height: 80px;
@@ -234,7 +228,7 @@
 }
 
 .defense5 {
-  background-image: url('/picsmovements/defense/dfighter/rasteraf.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Defense/dfighter/rasteraf.png');
   background-size: cover;
   width: 120px;
   height: 90px;
@@ -242,7 +236,7 @@
 }
 
 .acrobatics1 {
-  background-image: url('/picsmovements/acrobatics/afighter/cartwheelstraightf.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Acrobatics/afighter/cartwheelstraightf.png');
   background-size: cover;
   width: 150px;
   height: 90px;
@@ -250,7 +244,7 @@
 }
 
 .acrobatics2 {
-  background-image: url('/picsmovements/acrobatics/afighter/macacosidef.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Acrobatics/afighter/macacosidef.png');
   background-size: cover;
   width: 100px;
   height: 130px;
@@ -258,7 +252,7 @@
 }
 
 .acrobatics3 {
-  background-image: url('/picsmovements/acrobatics/afighter/cartwheelf.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/Acrobatics/afighter/cartwheelf.png');
   background-size: cover;
   width: 120px;
   height: 130px;
@@ -279,9 +273,9 @@
   margin-right: 200px;
   margin-top: 50px;
   background-color: grey;
-  border-radius: 20px; 
-  font-size: 2em; 
-  color: white; 
+  border-radius: 20px;
+  font-size: 2em;
+  color: white;
   font-family: 'Lobster', cursive;
 }
 
@@ -291,7 +285,7 @@
   flex-direction: row;
   width: 500px;
   justify-content: space-between;
-  font-size: 1.2em; 
+  font-size: 1.2em;
   font-family: 'Lobster', cursive;
 }
 
@@ -306,34 +300,43 @@
 }
 
 .birdsDiv {
-  width: 300px; 
-  height: inherit; 
-
+  width: 300px;
+  height: inherit;
 }
 
 .birdsGif {
-  background-image: url("/picsmovements/166ad49c.gif");
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/166ad49c.gif');
   background-size: contain;
   background-repeat: no-repeat;
-  width: inherit; 
-  height: inherit; 
+  width: inherit;
+  height: inherit;
   animation-name: birdsGif;
   animation-duration: 70s;
   position: absolute;
   z-index: 95;
-  bottom: 250px; 
+  bottom: 250px;
 }
-
 
 @keyframes birdsGif {
-  0% {left: 1800px;}
-  25% {left: 1100px;}
-  50% {left: 500px;}
-  75% {left: 0px;}
-  80% {left: -200px;}
-  100% {left: -500px;}
+  0% {
+    left: 1800px;
+  }
+  25% {
+    left: 1100px;
+  }
+  50% {
+    left: 500px;
+  }
+  75% {
+    left: 0px;
+  }
+  80% {
+    left: -200px;
+  }
+  100% {
+    left: -500px;
+  }
 }
-
 
 .roda {
   width: 1000px;
@@ -345,7 +348,7 @@
 .fighter {
   width: 350px;
   height: inherit;
-  background-image: url('/picsmovements/gingaf.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/gingaf.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -356,7 +359,7 @@
   width: 350px;
   height: inherit;
 
-  background-image: url('/picsmovements/gingao.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/gingao.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -365,7 +368,7 @@
 .opponentDisplay {
   width: 500px;
   height: 350px;
-  background-color:rgba(171, 183, 183, 0.5);
+  background-color: rgba(171, 183, 183, 0.5);
   margin-top: 150px;
   display: flex;
   flex-direction: column;
@@ -382,7 +385,7 @@
 }
 
 .oppDis {
-  background-image: url('/picsmovements/gingao.png');
+  background-image: url('https://raw.githubusercontent.com/ThePF/capoeiraGame/master/picsMovements/gingao.png');
   width: 200px;
   height: 330px;
   background-size: contain;
@@ -394,7 +397,6 @@
   width: 500px;
   height: 20px;
   background-color: green;
-  font-size: 0px; 
-  border: 1px solid black; 
+  font-size: 0px;
+  border: 1px solid black;
 }
-
